@@ -1,0 +1,16 @@
+{
+  "name": "react02_indecision",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/festar1985/react02_indecision.git",
+  "author": "Georgi <georgi.k.konstantinov@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "build": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
