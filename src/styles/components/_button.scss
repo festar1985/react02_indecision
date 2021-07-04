@@ -1,0 +1,38 @@
+.big-button {
+  background: $seconday-color;
+  border: none;
+  border-bottom: 0.6rem solid darken($seconday-color, 10%);
+  color: white;
+  font-size: $l-mobile-size;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: $m-size;
+  padding: 2.4rem;
+}
+
+.big-button:disabled {
+  opacity: 0.5;
+}
+
+.small-button {
+  background-color: $seconday-color;
+  border: none;
+  border-bottom: 0.3rem darken($seconday-color, 10%);
+  color: white;
+  font-weight: 500;
+  padding: $s-size;
+}
+
+.small-button--remove {
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+}
+
+@media (min-width: $desktop_breakpoint) {
+  .big-button {
+    margin-bottom: $xl-size;
+    font-size: $l-size;
+  }
+}
