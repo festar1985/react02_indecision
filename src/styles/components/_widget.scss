@@ -1,11 +1,11 @@
 .widget {
-  background: $widget-lightblue;
+  background: $third-color;
   margin-bottom: $xl-size;
 }
 
 .widget-header {
-  background: $widget-blue;
-  color: $off-white;
+  background: $third-color2;
+  color: white;
   padding: $m-size;
   display: flex;
   justify-content: space-between;
@@ -13,12 +13,13 @@
 
 .widget-header__title {
   margin: 0;
+  color: white;
 }
 
 .widget-message {
-  color: $off-white;
+  color: white;
   margin: 0;
   padding: $l-size;
   text-align: center;
-  border-bottom: 1px solid lighten($widget-lightblue, 10%);
+  border-bottom: 1px solid $third-color2;
 }

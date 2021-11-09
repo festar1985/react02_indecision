@@ -1,4 +1,4 @@
-import { getOwnPropertySymbols } from "core-js/fn/object";
+//import { getOwnPropertySymbols } from "core-js/fn/object";
 import React from "react";
 import Modal from "react-modal";
 

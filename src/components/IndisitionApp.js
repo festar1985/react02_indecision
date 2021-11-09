@@ -29,7 +29,7 @@ class IndisitionApp extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (prevState.options.length != this.state.options.lenght) {
+    if (prevState.options.length !== this.state.options.lenght) {
       const jsonOptions = JSON.stringify(this.state.options);
       localStorage.setItem("options", jsonOptions);
       console.log("App updated");

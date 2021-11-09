@@ -18,8 +18,8 @@
 }
 
 .modal {
-  background: $background;
-  color: $off-white;
+  background: $main-color;
+  color: $seconday-color;
   max-width: 50rem;
   outline: none;
   padding: $l-size;
@@ -36,4 +36,5 @@
   font-style: italic;
   margin: 0 0 $l-size 0;
   word-break: break-all;
+  color: white;
 }
