@@ -1,6 +1,6 @@
 {
   "name": "react02_indecision",
-  "homepage": ".",
+  "homepage": "index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
