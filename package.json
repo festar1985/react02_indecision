@@ -1,6 +1,6 @@
 {
   "name": "react02_indecision",
-  "homepage": "https://makedecision.festardevs.com",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

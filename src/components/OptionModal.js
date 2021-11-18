@@ -1,4 +1,3 @@
-//import { getOwnPropertySymbols } from "core-js/fn/object";
 import React from "react";
 import Modal from "react-modal";
 
@@ -6,7 +5,7 @@ const OptionModal = (props) => {
   return (
     <Modal
       isOpen={!!props.selectedOption}
-      contentLabel="Your selected option is:"
+      contentLabel="The AI has selected for you:"
       onRequestClose={props.handleModalOK}
       closeTimeoutMS={500}
       className="modal"

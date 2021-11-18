@@ -64,7 +64,7 @@ class IndisitionApp extends React.Component {
 
   handleAddOption(optionElement) {
     if (!optionElement) {
-      return "Please add a valid element";
+      return "Please add a valid option element";
     } else if (this.state.options.indexOf(optionElement) > -1) {
       return "This option is already in the list";
     } else {
@@ -75,7 +75,7 @@ class IndisitionApp extends React.Component {
   }
 
   render() {
-    const title = "You can not make a choice ?";
+    const title = "You can not make a choice?";
     const subtitle = "Put your destiny in the AI hands";
 
     return (
